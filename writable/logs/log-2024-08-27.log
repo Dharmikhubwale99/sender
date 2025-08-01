@@ -1,0 +1,35 @@
+CRITICAL - 2024-08-27 21:12:22 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-27 21:13:22 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-27 21:15:06 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-27 21:15:53 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-27 21:17:09 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

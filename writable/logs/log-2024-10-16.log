@@ -1,0 +1,63 @@
+CRITICAL - 2024-10-16 14:37:21 --> Invalid file: Frontend\Stackmin\Views\home.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(43): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->index()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 14:37:22 --> Invalid file: Frontend\Stackmin\Views\show404.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(271): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->show404()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(858): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 14:37:34 --> Invalid file: Frontend\Stackmin\Views\home.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(43): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->index()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 14:37:35 --> Invalid file: Frontend\Stackmin\Views\show404.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(271): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->show404()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(858): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 14:37:46 --> Invalid file: Frontend\Stacblue\Views\home.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(43): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->index()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 14:37:47 --> Invalid file: Frontend\Stacblue\Views\show404.php
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(271): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->show404()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(858): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 16:13:54 --> Attempt to read property "expiration_date" on null
+#0 /www/wwwroot/dash.wappbuzz.in/inc/core/Users/Helpers/Users_helper.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/inc/core/Appearance/Filters/beforeFilter.php(134): role()
+#2 /www/wwwroot/dash.wappbuzz.in/app/Filters/MainFilter.php(130): include_once('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

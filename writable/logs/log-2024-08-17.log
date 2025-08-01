@@ -1,0 +1,70 @@
+CRITICAL - 2024-08-17 01:36:42 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 02:11:33 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 18:40:38 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 18:40:40 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 19:01:29 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 19:16:20 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 19:16:21 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 19:36:35 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 19:36:59 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-17 20:10:52 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

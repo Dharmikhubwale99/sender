@@ -1,0 +1,18 @@
+CRITICAL - 2025-02-07 07:25:25 --> Invalid file: Frontend\Stacklight\Views\product.php
+#0 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/sender.hubwale.in/inc/core/Home/Controllers/Home.php(104): view()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->product()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-02-07 09:44:42 --> Invalid file: Frontend\Stacklight\Views\product.php
+#0 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/sender.hubwale.in/inc/core/Home/Controllers/Home.php(104): view()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->product()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

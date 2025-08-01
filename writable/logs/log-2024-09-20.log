@@ -1,0 +1,147 @@
+CRITICAL - 2024-09-20 14:07:04 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:07:06 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:09:50 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:09:52 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:11:46 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:11:48 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:16:19 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:16:23 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:16:25 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:18:07 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:18:09 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:18:40 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:21:54 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:21:56 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:23:02 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:44:51 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:44:56 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 14:45:37 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 15:21:16 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 15:21:17 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-20 15:22:50 --> Undefined array key "access_token"
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_api/Controllers/Whatsapp_api.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_api\Controllers\Whatsapp_api->send_pedido()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

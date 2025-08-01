@@ -1,0 +1,61 @@
+CRITICAL - 2025-07-30 02:45:41 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-07-30 02:45:45 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-07-30 02:45:50 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-07-30 02:45:57 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-07-30 02:45:58 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-07-30 15:42:35 --> Undefined property: stdClass::$subject
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_export_participants/Controllers/Whatsapp_export_participants.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_export_participants\Controllers\Whatsapp_export_participants->export_group()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-30 15:42:45 --> Undefined property: stdClass::$subject
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_export_participants/Controllers/Whatsapp_export_participants.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_export_participants\Controllers\Whatsapp_export_participants->export_group()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-30 15:43:03 --> Undefined property: stdClass::$subject
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_export_participants/Controllers/Whatsapp_export_participants.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_export_participants\Controllers\Whatsapp_export_participants->export_group()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

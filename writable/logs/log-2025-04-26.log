@@ -1,0 +1,8 @@
+CRITICAL - 2025-04-26 10:47:37 --> array_change_key_case(): Argument #1 ($array) must be of type array, bool given
+#0 /www/wwwroot/sender.hubwale.in/app/Helpers/Common_helper.php(1890): array_change_key_case()
+#1 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_profiles/Controllers/Whatsapp_profiles.php(178): save_img()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_profiles\Controllers\Whatsapp_profiles->check_login()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

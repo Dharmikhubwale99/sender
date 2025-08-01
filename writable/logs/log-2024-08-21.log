@@ -1,0 +1,49 @@
+CRITICAL - 2024-08-21 03:52:24 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 03:53:17 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 03:55:09 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 03:59:22 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 04:05:32 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 04:05:55 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 04:09:29 --> Attempt to read property "hash" on null
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

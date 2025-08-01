@@ -1,0 +1,8 @@
+CRITICAL - 2024-07-04 11:30:52 --> array_change_key_case(): Argument #1 ($array) must be of type array, bool given
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1890): array_change_key_case()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(177): save_img()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->check_login()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

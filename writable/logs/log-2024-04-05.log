@@ -1,0 +1,56 @@
+ERROR - 2024-04-05 11:30:29 --> Unknown column 'key_disable' in 'field list'
+ERROR - 2024-04-05 11:31:17 --> Unknown column 'key_disable' in 'field list'
+ERROR - 2024-04-05 11:42:15 --> Unknown column 'key_disable' in 'field list'
+CRITICAL - 2024-04-05 11:45:39 --> Undefined constant "Core\Whatsapp_livechat\Controllers\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->index()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-05 11:45:45 --> Undefined constant "Core\Whatsapp_livechat\Controllers\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->index()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-04-05 11:46:09 --> Unknown column 'key_disable' in 'field list'
+ERROR - 2024-04-05 11:47:53 --> Unknown column 'key_disable' in 'field list'
+ERROR - 2024-04-05 11:50:40 --> Unknown column 'key_disable' in 'field list'
+CRITICAL - 2024-04-05 11:50:40 --> Unknown column 'key_disable' in 'field list'
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/demo.baceoin.com/app/Helpers/Common_helper.php(1468): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /www/wwwroot/demo.baceoin.com/inc/core/Whatsapp_chatbot/Controllers/Whatsapp_chatbot.php(204): db_insert()
+#6 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_chatbot\Controllers\Whatsapp_chatbot->save_ai()
+#7 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-05 12:04:06 --> Undefined constant "Core\Whatsapp_livechat\Controllers\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->index()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-05 12:08:09 --> Undefined constant "Core\Whatsapp_livechat\Models\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/inc/core/Whatsapp_livechat/Controllers/Whatsapp_livechat.php(142): Core\Whatsapp_livechat\Models\Whatsapp_livechatModel->get_list_items()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->ajax_list_items()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-05 12:08:23 --> Undefined constant "Core\Whatsapp_livechat\Models\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/inc/core/Whatsapp_livechat/Controllers/Whatsapp_livechat.php(142): Core\Whatsapp_livechat\Models\Whatsapp_livechatModel->get_list_items()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->ajax_list_items()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-05 12:09:06 --> Undefined constant "Core\Whatsapp_livechat\Controllers\TB_WHATSAPP_LIVECHAT"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_livechat\Controllers\Whatsapp_livechat->ajax_list_items()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

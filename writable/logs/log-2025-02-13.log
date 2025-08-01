@@ -1,0 +1,16 @@
+CRITICAL - 2025-02-13 09:56:59 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-02-13 09:59:25 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2025-01-28 22:42:24 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Models/WhatsappModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Helpers/Common_helper.php(655): Core\Whatsapp\Models\WhatsappModel->block_plans()
+#2 /www/wwwroot/sender.hubwale.in/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#3 /www/wwwroot/sender.hubwale.in/app/Filters/MainFilter.php(130): include_once('...')
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#5 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#6 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-28 22:42:24 --> Cannot use a scalar value as an array
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#1 /www/wwwroot/sender.hubwale.in/app/Filters/MainFilter.php(130): include_once('...')
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-28 22:42:24 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp/Models/WhatsappModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/app/Helpers/Common_helper.php(655): Core\Whatsapp\Models\WhatsappModel->block_plans()
+#2 /www/wwwroot/sender.hubwale.in/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#3 /www/wwwroot/sender.hubwale.in/app/Filters/MainFilter.php(130): include_once('...')
+#4 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#5 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#6 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

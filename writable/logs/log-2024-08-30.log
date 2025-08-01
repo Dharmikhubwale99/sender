@@ -1,0 +1,21 @@
+CRITICAL - 2024-08-30 20:41:05 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-30 20:42:13 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-30 20:42:22 --> Undefined array key "data"
+#0 /www/wwwroot/iaclicks.com/inc/plugins/Mercadopago/Controllers/Mercadopago.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Mercadopago\Controllers\Mercadopago->success()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

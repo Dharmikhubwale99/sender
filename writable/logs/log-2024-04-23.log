@@ -1,0 +1,114 @@
+CRITICAL - 2024-04-23 16:38:44 --> Unclosed '[' does not match ')'
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 16:40:18 --> Undefined property: Plugins\Midtrans\Controllers\Midtrans::$razorpay_api
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Midtrans/Controllers/Midtrans.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Plugins\Midtrans\Controllers\Midtrans->__construct()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-23 16:42:59 --> Undefined property: stdClass::$order_id
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Midtrans/Controllers/Midtrans.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Midtrans\Controllers\Midtrans->index()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-23 10:26:45 --> Undefined property: stdClass::$fraud
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Midtrans/Controllers/Midtrans.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Midtrans\Controllers\Midtrans->ipn()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-23 10:26:57 --> Undefined property: stdClass::$fraud
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Midtrans/Controllers/Midtrans.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Midtrans\Controllers\Midtrans->ipn()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-23 10:52:58 --> Undefined property: stdClass::$fraud
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Midtrans/Controllers/Midtrans.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Midtrans\Controllers\Midtrans->ipn()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-23 17:55:30 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11398): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6550): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16565): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20475): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13781): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 17:56:20 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11398): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6550): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16565): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20475): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13781): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 18:11:49 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11420): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6553): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16611): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20521): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13827): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 18:12:06 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11420): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6553): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16611): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20521): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13827): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 18:12:29 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11420): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6553): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16611): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20521): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13827): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

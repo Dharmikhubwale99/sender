@@ -1,0 +1,8 @@
+CRITICAL - 2024-09-29 23:11:36 --> Cannot use a scalar value as an array
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

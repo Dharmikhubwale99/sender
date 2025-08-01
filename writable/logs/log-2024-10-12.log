@@ -1,0 +1,311 @@
+ERROR - 2024-10-12 01:25:09 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-10-12 01:25:09 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/dash.wappbuzz.in/app/Helpers/Common_helper.php(1468): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /www/wwwroot/dash.wappbuzz.in/inc/core/Whatsapp_callresponder/Controllers/Whatsapp_callresponder.php(174): db_insert()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_callresponder\Controllers\Whatsapp_callresponder->save()
+#7 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-12 01:28:46 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-10-12 01:28:46 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/dash.wappbuzz.in/app/Helpers/Common_helper.php(1468): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /www/wwwroot/dash.wappbuzz.in/inc/core/Whatsapp_callresponder/Controllers/Whatsapp_callresponder.php(174): db_insert()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_callresponder\Controllers\Whatsapp_callresponder->save()
+#7 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-12 01:30:40 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-10-12 01:30:40 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/dash.wappbuzz.in/app/Helpers/Common_helper.php(1468): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /www/wwwroot/dash.wappbuzz.in/inc/core/Whatsapp_callresponder/Controllers/Whatsapp_callresponder.php(174): db_insert()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_callresponder\Controllers\Whatsapp_callresponder->save()
+#7 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:24:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:24:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:03 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:03 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-12 06:25:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/dash.wappbuzz.in/inc/themes/frontend/Wzdark.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/dash.wappbuzz.in/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/app/Config/Routes.php(119): file_exists()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-12 06:25:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/dash.wappbuzz.in/app/Config/Events.php:35) in /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

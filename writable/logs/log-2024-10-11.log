@@ -1,0 +1,645 @@
+CRITICAL - 2024-10-11 00:02:38 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:02:40 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:06:38 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:06:39 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:06:45 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:06:46 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:06:53 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:06:54 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:07:01 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:07:02 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:07:05 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:07:06 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:07:15 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:07:16 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:08:35 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 00:08:37 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:30:48 --> Call to undefined function cc_code()
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(207): view()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 00:30:52 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:45:17 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 00:46:22 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:35 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:35 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:08:36 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:36 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:08:40 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:40 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:08:42 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:42 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:08:43 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:08:52 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:08:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 01:09:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/app_zapmatic_app2.zip.118653480.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 01:09:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 12:27:26 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/core.zip.46327103.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:27:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 12:28:41 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/core/core.zip.46327103.upload.tmp/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(85): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:28:41 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/app_zapmatic_app/app/Config/Events.php:35) in /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-11 12:32:08 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:36:46 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:37:39 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-11 12:37:40 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:41:25 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:41:27 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:41:36 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:41:37 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:26 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:27 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:31 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:32 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:35 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:43:37 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:45:44 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:46:02 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:46:04 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:46:08 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:46:09 --> Class "voku\helper\AntiXSS" not found
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:46:10 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 12:48:26 --> Undefined variable $antiXss
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(785): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(248): post()
+#2 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(129): include_once('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-11 12:48:27 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 13:07:45 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 13:08:08 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 13:08:32 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 13:08:36 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-11 18:19:38 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:19:42 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:19:44 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:19:57 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:20:40 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:21:29 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:21:49 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:23:20 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:28:13 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:29:27 --> Unmatched '}'
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#3 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-11 18:39:07 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 18:39:40 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 19:04:14 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-11 19:09:06 --> Call to undefined function cc_code()
+#0 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/dash.wappbuzz.in/inc/core/Home/Controllers/Home.php(186): view()
+#4 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->signup()
+#5 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/dash.wappbuzz.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/dash.wappbuzz.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

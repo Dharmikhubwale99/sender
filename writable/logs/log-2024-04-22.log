@@ -1,0 +1,125 @@
+CRITICAL - 2024-04-22 10:37:40 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/demo.baceoin.com/inc/plugins/Razorpay.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/demo.baceoin.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-22 10:37:40 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/demo.baceoin.com/app/Config/Events.php:35) in /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-22 10:37:40 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/demo.baceoin.com/inc/plugins/Razorpay.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/demo.baceoin.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-22 10:37:40 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/demo.baceoin.com/app/Config/Events.php:35) in /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-22 17:39:17 --> syntax error, unexpected token "=", expecting "]"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-22 17:39:53 --> syntax error, unexpected token "=", expecting "]"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-22 17:40:41 --> syntax error, unexpected token "}"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-22 17:41:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-22 17:42:58 --> json_decode(): Argument #1 ($json) must be of type string, Razorpay\Api\PaymentLink given
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Razorpay/Controllers/Razorpay.php(74): json_decode()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Razorpay\Controllers\Razorpay->index()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-22 17:43:33 --> json_decode(): Argument #1 ($json) must be of type string, Razorpay\Api\PaymentLink given
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Razorpay/Controllers/Razorpay.php(74): json_decode()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Razorpay\Controllers\Razorpay->index()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-22 18:27:24 --> syntax error, unexpected token ";", expecting "]"
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-22 18:37:11 --> json_decode(): Argument #1 ($json) must be of type string, Razorpay\Api\PaymentLink given
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Razorpay/Controllers/Razorpay.php(106): json_decode()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Plugins\Razorpay\Controllers\Razorpay->complete()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-22 19:17:20 --> Undefined array key "boxbottom"
+#0 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(11398): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(6550): Mpdf\Mpdf->_setInlineBlockHeights()
+#2 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(16565): Mpdf\Mpdf->finishFlowingBlock()
+#3 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(20475): Mpdf\Mpdf->printbuffer()
+#4 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag/Table.php(865): Mpdf\Mpdf->_tableHeight()
+#5 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Tag.php(247): Mpdf\Tag\Table->close()
+#6 /www/wwwroot/demo.baceoin.com/vendor/mpdf/mpdf/src/Mpdf.php(13781): Mpdf\Tag->CloseTag()
+#7 /www/wwwroot/demo.baceoin.com/inc/core/Profile/Controllers/Profile.php(182): Mpdf\Mpdf->WriteHTML()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Profile\Controllers\Profile->download_invoice()
+#9 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-22 22:19:30 --> syntax error, unexpected token "."
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-22 22:20:18 --> include(inc/plugins/Robokassa/Libraries/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /www/wwwroot/demo.baceoin.com/inc/plugins/Robokassa/Controllers/Robokassa.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/demo.baceoin.com/inc/plugins/Robokassa/Controllers/Robokassa.php(11): include()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Plugins\Robokassa\Controllers\Robokassa->__construct()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

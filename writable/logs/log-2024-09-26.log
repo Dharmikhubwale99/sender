@@ -1,0 +1,1311 @@
+CRITICAL - 2024-09-26 00:56:36 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:36 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 00:56:37 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:37 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 00:56:38 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:38 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 00:56:42 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:42 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 00:56:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 00:56:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 00:56:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:04:05 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:04:05 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:04:07 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:04:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:04:09 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:04:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:28:22 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:28:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:28:23 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:28:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:28:53 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:28:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:47:00 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:47:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 01:52:54 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 01:52:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 05:50:49 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 05:50:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 05:50:50 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 05:50:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 06:20:49 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 06:20:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 06:30:50 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 06:30:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 06:57:43 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 06:57:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 08:24:42 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 08:24:42 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 08:50:49 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 08:50:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 09:37:28 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 09:37:28 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:39 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:39 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:40 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:40 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:46 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:47 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:53 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:36:53 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:36:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:37:24 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:37:24 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:37:24 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:37:24 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 11:50:49 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 11:50:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:01:32 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:01:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:01:33 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:01:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:03:03 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:03:03 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:56 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:57 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:59 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:12:59 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:12:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:26:46 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:26:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:48:55 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:48:55 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:53:12 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:53:12 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:53:23 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:53:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:01 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:01 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:07 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:07 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:17 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:17 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:17 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:17 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:54:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:54:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:56:38 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:56:38 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 12:56:39 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 12:56:39 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:02:44 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:02:44 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:02:45 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:02:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:03:39 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:03:39 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:03:44 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:03:44 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:12:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:12:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:12:05 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:12:05 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:32:05 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:32:05 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:32:06 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:32:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:40:29 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:40:29 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:40:30 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:40:30 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 13:44:32 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/iaclicks.com/inc/plugins/Payment.zip/Config/Routes.php) is not within the allowed path(s): (/www/wwwroot/iaclicks.com/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(68): file_exists()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 13:44:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /www/wwwroot/iaclicks.com/app/Config/Events.php:35) in /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-26 14:01:33 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-26 20:34:38 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-26 20:39:18 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-26 20:40:12 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-26 20:49:32 --> Undefined property: stdClass::$hash
+#0 /www/wwwroot/iaclicks.com/inc/core/Whatsapp_evo_profiles/Controllers/Whatsapp_evo_profiles.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_evo_profiles\Controllers\Whatsapp_evo_profiles->get_qrcode()
+#2 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/iaclicks.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/iaclicks.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

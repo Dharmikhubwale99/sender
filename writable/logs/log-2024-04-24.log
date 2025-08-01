@@ -1,0 +1,15 @@
+ERROR - 2024-04-24 11:22:51 --> Unknown column 'except' in 'field list'
+ERROR - 2024-04-24 11:24:35 --> Unknown column 'except' in 'field list'
+ERROR - 2024-04-24 11:35:12 --> Unknown column 'except' in 'field list'
+CRITICAL - 2024-04-24 11:35:12 --> Unknown column 'except' in 'field list'
+#0 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/demo.baceoin.com/app/Helpers/Common_helper.php(1468): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /www/wwwroot/demo.baceoin.com/inc/core/Whatsapp_chatbot/Controllers/Whatsapp_chatbot.php(769): db_insert()
+#6 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_chatbot\Controllers\Whatsapp_chatbot->save()
+#7 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /www/wwwroot/demo.baceoin.com/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/demo.baceoin.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

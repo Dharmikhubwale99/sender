@@ -1,0 +1,14 @@
+CRITICAL - 2025-02-15 11:46:41 --> Undefined property: stdClass::$subject
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_export_participants/Controllers/Whatsapp_export_participants.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_export_participants\Controllers\Whatsapp_export_participants->export_group()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-15 11:48:19 --> Undefined property: stdClass::$subject
+#0 /www/wwwroot/sender.hubwale.in/inc/core/Whatsapp_export_participants/Controllers/Whatsapp_export_participants.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_export_participants\Controllers\Whatsapp_export_participants->export_group()
+#2 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/sender.hubwale.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/sender.hubwale.in/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

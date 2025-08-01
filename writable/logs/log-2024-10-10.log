@@ -1,0 +1,618 @@
+CRITICAL - 2024-10-10 01:37:47 --> Cannot use a scalar value as an array
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp/Models/WhatsappModel.php(8): parse_config()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(652): Core\Whatsapp\Models\WhatsappModel->__construct()
+#2 /www/wwwroot/app_zapmatic_app/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#3 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-10 14:20:52 --> Cannot use a scalar value as an array
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 14:46:45 --> Call to undefined function Core\Auth\Models\send_whatsapp()
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Auth/Controllers/Auth.php(35): Core\Auth\Models\AuthModel->recovery_password()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Auth\Controllers\Auth->recovery_password()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-10 14:49:16 --> Call to undefined function Core\Auth\Models\send_whatsapp()
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Auth/Controllers/Auth.php(35): Core\Auth\Models\AuthModel->recovery_password()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Auth\Controllers\Auth->recovery_password()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-10 18:21:17 --> Cannot use a scalar value as an array
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Plans/Filters/beforeFilter.php(59): get_blocks()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:39 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:44 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:47 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:48 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:51 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:51 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:54:57 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-10-10 21:55:27 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-10-10 21:55:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(25): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-10 21:55:28 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-10-10 21:55:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 21:55:29 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:55:32 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:55:35 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:56:26 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:09:46 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:11:20 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(116): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:14 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:15 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:16 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:40 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(117): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:43 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(117): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:46 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(117): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:12:58 --> Undefined constant "TEAM_ID"
+#0 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-10 22:13:10 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:19:21 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:21:18 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(117): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:23:57 --> Undefined variable $team_data
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:25:09 --> Automatic conversion of false to array is deprecated
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 22:27:29 --> Undefined constant "TEAM_INFO"
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(89): permission()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 19:30:59 --> Undefined constant "PLATFORM"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#3 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(46): CodeIgniter\View\View->include()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#8 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-10-10 19:41:34 --> foreach() argument must be of type array|object, bool given
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1515): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-10 19:41:50 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/themes/backend.zip/Config.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1517): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-10 20:31:32 --> file_put_contents(/www/wwwroot/app_zapmatic_app/inc/core/Whatsapp/Config.php): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp/Filters/beforeFilter.php(165): file_put_contents()
+#2 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-10 23:32:16 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:22 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:22 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:25 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:30 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:41 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:32:58 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:33:00 --> Undefined variable $platform
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:33:32 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:33:33 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:33:38 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:33:40 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:34:06 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:34:07 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:34:16 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:34:17 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:34:18 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:34:20 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-10-10 23:35:08 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-10-10 23:35:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1493): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(52): db_get()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-10 23:35:09 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:35:12 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:35:13 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:35:16 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:35:17 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:40:09 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:40:10 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:41:20 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:41:20 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:41:58 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:41:59 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 23:42:09 --> Undefined constant "App\Filters\TB_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-10 23:42:10 --> Undefined constant "SYSTEM_OPTIONS"
+#0 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1851): get_option()
+#1 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-10 21:58:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/themes/backend.zip/Config.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1517): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-10 21:58:28 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/themes/backend.zip/Config.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1517): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-10 21:58:58 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/themes/backend.zip/Config.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1517): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-10-10 21:59:04 --> file_exists(): open_basedir restriction in effect. File(/www/wwwroot/app_zapmatic_app/inc/themes/backend.zip/Config.php) is not within the allowed path(s): (/www/wwwroot/app_zapmatic_app/:/tmp/)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1517): file_exists()
+#2 /www/wwwroot/app_zapmatic_app/inc/themes/backend/Stackmin/Views/index.php(31): load_files()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /www/wwwroot/app_zapmatic_app/inc/core/Dashboard/Controllers/Dashboard.php(98): view()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Dashboard\Controllers\Dashboard->index()
+#9 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

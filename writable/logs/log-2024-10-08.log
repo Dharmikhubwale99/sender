@@ -1,0 +1,1418 @@
+CRITICAL - 2024-10-08 00:56:34 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(171): view()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->login()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-08 00:56:54 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(171): view()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Home\Controllers\Home->login()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-10-08 12:37:43 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:37:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:37:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:37:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:37:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:37:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:00 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:01 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:03 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:04 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:08 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:08 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:10 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:22 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:38:23 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:38:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:43:08 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:43:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:43:09 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:43:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:43:51 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:43:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:43:52 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:43:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:24 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:25 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:47 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:48 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:49 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:50 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:55 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:55 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:55 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:55 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:44:59 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:44:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:13 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:13 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:13 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:14 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:14 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:15 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:15 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:16 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:16 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:16 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:16 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:16 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:17 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:17 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:17 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:17 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:45:18 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:45:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:46:50 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:46:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:46:51 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:46:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:48:38 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:48:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:48:39 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:48:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:51:10 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:51:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:51:10 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:51:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:01 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:04 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:09 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:11 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:37 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:53:39 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:53:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:58:03 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:58:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:58:04 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:58:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:59:00 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:59:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:59:01 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:59:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:59:56 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:59:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 12:59:57 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 12:59:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:00:58 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:00:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:00:59 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:00:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:01:33 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:01:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:01:34 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:01:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:02:53 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:02:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:02:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:02:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:25 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:26 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:29 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:30 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:36 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:37 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:41 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:42 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:44 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:45 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:03:46 --> Error connecting to the database: Too many connections
+CRITICAL - 2024-10-08 13:03:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1790): get_option()
+#5 /www/wwwroot/app_zapmatic_app/inc/core/Home/Controllers/Home.php(7): parse_config()
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Core\Home\Controllers\Home->__construct()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-10-08 13:04:43 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-10-08 13:04:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1441): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/app_zapmatic_app/app/Helpers/Common_helper.php(1345): db_get()
+#4 /www/wwwroot/app_zapmatic_app/inc/core/Appearance/Filters/beforeFilter.php(32): get_option()
+#5 /www/wwwroot/app_zapmatic_app/app/Filters/MainFilter.php(50): include_once('...')
+#6 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MainFilter->before()
+#7 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#8 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,29 @@
+CRITICAL - 2024-10-05 15:21:33 --> Trying to access array offset on value of type int
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp/Config/Routes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/app/Config/Routes.php(86): require('...')
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(713): require('...')
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-05 18:00:28 --> Undefined array key 0
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp_contact/Controllers/Whatsapp_contact.php(401): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_contact\Controllers\Whatsapp_contact->do_import_contact()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-05 18:07:10 --> Undefined array key 0
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Whatsapp_contact/Controllers/Whatsapp_contact.php(401): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Whatsapp_contact\Controllers\Whatsapp_contact->do_import_contact()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-05 22:27:31 --> Call to undefined function Core\Auth\Models\send_whatsapp()
+#0 /www/wwwroot/app_zapmatic_app/inc/core/Auth/Controllers/Auth.php(35): Core\Auth\Models\AuthModel->recovery_password()
+#1 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Core\Auth\Controllers\Auth->recovery_password()
+#2 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /www/wwwroot/app_zapmatic_app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /www/wwwroot/app_zapmatic_app/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
